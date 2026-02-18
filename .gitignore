@@ -1,0 +1,54 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+outputs/**
+!outputs/README.md
+!outputs/animations/
+!outputs/animations/README.md
+!outputs/images/
+!outputs/images/README.md
+!outputs/tables/
+!outputs/tables/README.md
+
+# Local caches
+utils/geocode_cache.csv
+data/cache/**
+!data/cache/README.md
+
+# Large raw datasets (keep local, do not version)
+data/chirps/**
+!data/chirps/README.md
+data/grwl/**
+!data/grwl/README.md
+data/hydrosheds/**
+!data/hydrosheds/README.md
+!data/hydrosheds/flow_accumulation_15s/
+!data/hydrosheds/flow_accumulation_15s/README.md
+!data/hydrosheds/flow_direction_15s/
+!data/hydrosheds/flow_direction_15s/README.md
+
+# Offline validation generated artifacts
+data_validation/outputs/**
+!data_validation/outputs/README.md
+
+# Logs
+*.log

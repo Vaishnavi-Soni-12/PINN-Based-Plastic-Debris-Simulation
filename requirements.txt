@@ -1,0 +1,16 @@
+torch
+numpy
+matplotlib
+streamlit
+xarray 
+netCDF4 
+numpy
+pandas
+scipy
+geopandas
+shapely
+rasterio
+folium
+fiona
+pyproj
+geopy
